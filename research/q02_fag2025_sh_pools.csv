@@ -1,0 +1,167 @@
+﻿nr,vid,kreis,amt_und_strasse,plz,ort,name,ort2,art,angeleitet,stunden,masszahl,foerderbetrag
+1,0100,Flensburg (Stadt),Amt Stadt Flensburg Rathausplatz 1,24937,Flensburg,"Campusbad Flensburg, Sportbecken",Flensburg,Hallenbad,Ja,3174.0,0.02512,188417.15
+2,0100,Flensburg (Stadt),Amt Stadt Flensburg Rathausplatz 1,24937,Flensburg,"Campusbad Flensburg, Lehrschwimmbecken",Flensburg,Hallenbad,Ja,2216.0,0.01754,131547.7
+3,0200,Kiel (Stadt),Amt Landeshauptstadt Kiel Fleethörn 9,24103,Kiel,Hörnbad,Kiel,Hallenbad,Ja,3003.0,0.02377,178266.13
+4,0200,Kiel (Stadt),Amt Landeshauptstadt Kiel Fleethörn 9,24103,Kiel,Sommerbad Katzheide,Kiel,Freibad,Ja,496.0,0.00393,29443.89
+5,0200,Kiel (Stadt),Amt Landeshauptstadt Kiel Fleethörn 9,24103,Kiel,Eiderbad Hammer,Kiel,Freibad,Ja,78.0,0.00062,4630.29
+6,0200,Kiel (Stadt),Amt Landeshauptstadt Kiel Fleethörn 9,24103,Kiel,Max-Plank-Schule/Lehrbecken,Kiel,Hallenbad,Ja,1623.0,0.01285,96345.63
+7,0300,Lübeck (Stadt),Amt Hansestadt Lübeck Breite Straße 62,23552,Lübeck,Sportbad St. Lorenz,Lübeck,Hallenbad,Ja,1904.0,0.01507,113026.55
+8,0300,Lübeck (Stadt),Amt Hansestadt Lübeck Breite Straße 62,23552,Lübeck,Zentralbad,Lübeck,Hallenbad,Ja,2051.0,0.01623,121752.86
+9,0300,Lübeck (Stadt),Amt Hansestadt Lübeck Breite Straße 62,23552,Lübeck,Schwimmbad Kücknitz,Lübeck,Hallenbad,Ja,2027.0,0.01604,120328.16
+10,0300,Lübeck (Stadt),Amt Hansestadt Lübeck Breite Straße 62,23552,Lübeck,Freibad Schlutup,Lübeck,Freibad,Ja,23.0,0.00018,1365.34
+11,0400,Neumünster (Stadt),Amt Stadt Neumünster Großflecken 59,24534,Neumünster,"Bad am Stadtwald, Hallenbad",Neumünster,Hallenbad,Ja,3594.0,0.02845,213349.48
+12,0400,Neumünster (Stadt),Amt Stadt Neumünster Großflecken 59,24534,Neumünster,"Bad am Stadtwald, Freibad",Neumünster,Freibad,Ja,682.0,0.0054,40485.35
+13,5106,Dithmarschen,Amt Stadt Brunsbüttel Koogstraße 61-63,25541,Brunsbüttel,Freizeitbad LUV,Brunsbüttel,Hallenbad,Ja,987.0,0.00781,58590.97
+14,5106,Dithmarschen,Amt Stadt Brunsbüttel Koogstraße 61-63,25541,Brunsbüttel,Freibad Ulitzhörn,Brunsbüttel,Freibad,Ja,24.0,0.00019,1424.7
+15,5121,Dithmarschen,Amt Stadt Heide Postelweg 1,25746,Heide,"Dithmarscher Wasserwelt, Hallenbad",Heide,Hallenbad,Ja,1968.0,0.01558,116825.76
+16,5163,Dithmarschen,Amt Burg-St. Michaelisdonn Holzmarkt 7,25712,Burg/Dith.,Freibad St. Michaelisdonn St.,Michaelisdonn,Freibad,Ja,65.0,0.00051,3858.57
+17,5163,Dithmarschen,Amt Burg-St. Michaelisdonn Holzmarkt 7,25712,Burg/Dith.,Waldschwimmbad Burg,Burg,Freibad,Ja,150.0,0.00119,8904.4
+18,5166,Dithmarschen,Amt Marne-Nordsee Alter Kirchhof 4-5,25709,Marne,BUTENBINNEN - Schwimmhalle Marne,Marne,Hallenbad,Ja,1147.0,0.00908,68089.0
+19,5169,Dithmarschen,Amt Kirchspielslandgemeinden Eider Kirchspielsschreiber-Schmidt-Straße 1,25779,Hennstedt,Freibad Lunden,Lunden,Freibad,Ja,104.0,0.00082,6173.72
+20,5169,Dithmarschen,Amt Kirchspielslandgemeinden Eider Kirchspielsschreiber-Schmidt-Straße 1,25779,Hennstedt,Freibad Hennstedt,Hennstedt,Freibad,Ja,290.0,0.0023,17215.18
+21,5169,Dithmarschen,Amt Kirchspielslandgemeinden Eider Kirchspielsschreiber-Schmidt-Straße 1,25779,Hennstedt,Freibad Wrohm,Wrohm,Freibad,Ja,48.0,0.00038,2849.41
+22,5169,Dithmarschen,Amt Kirchspielslandgemeinden Eider Kirchspielsschreiber-Schmidt-Straße 1,25779,Hennstedt,Freibad Pahlen,Pahlen,Freibad,Ja,582.0,0.00461,34549.08
+23,5169,Dithmarschen,Amt Kirchspielslandgemeinden Eider Kirchspielsschreiber-Schmidt-Straße 1,25779,Hennstedt,Freibad Dellstedt,Dellstedt,Freibad,Ja,22.0,0.00017,1305.98
+24,5172,Dithmarschen,Amt Kirchspielslandgemeinde Heider Umland Kirchspielsweg 6,25746,Heide,Freibad Hemmingstedt,Hemmingstedt,Freibad,Ja,196.0,0.00155,11635.09
+25,5172,Dithmarschen,Amt Kirchspielslandgemeinde Heider Umland Kirchspielsweg 6,25746,Heide,Freibad Nordhastedt,Nordhastedt,Freibad,Ja,148.0,0.00117,8785.68
+26,5175,Dithmarschen,Amt Mitteldithmarschen Hindenburgstraße 18,25704,Meldorf,Freizeitbad Albersdorf,Albersdorf,Freibad,Ja,286.0,0.00226,16977.73
+27,5175,Dithmarschen,Amt Mitteldithmarschen Hindenburgstraße 18,25704,Meldorf,Freibad Schafstedt,Schafstedt,Freibad,Ja,64.0,0.00051,3799.21
+28,5178,Dithmarschen,Amt Büsum-Wesselburen Kaiser-Wilhelm-Platz,25761,Büsum,Meerzeit Büsum,Büsum,Hallenbad,Ja,295.0,0.00233,17511.99
+29,5178,Dithmarschen,Amt Büsum-Wesselburen Kaiser-Wilhelm-Platz,25761,Büsum,Freibad Wesselburen,Wesselburen,Freibad,Ja,211.0,0.00167,12525.53
+30,5308,Herzogtum Lauenburg,Amt Berkenthin Am Schart 16,23919,Berkenthin,Lehrschwimmbecken Schule Berkentin,Berkentin,Freibad,Ja,590.0,0.00467,35023.98
+31,5318,Herzogtum Lauenburg,Amt Büchen Amtsplatz 1,21514,Büchen,Waldschwimmbad Büchen,Büchen,Freibad,Ja,296.0,0.00234,17571.35
+32,5328,Herzogtum Lauenburg,Amt Stadt Geesthacht Markt 15,21502,Geesthacht,Freizeitbad Geesthacht,Geesthacht,Freibad,Ja,619.0,0.0049,36745.5
+33,5338,Herzogtum Lauenburg,Amt Stadt Lauenburg Amtsplatz 6,21481,Lauenburg/Elbe,Freibad Lauenburg,Lauenburg,Freibad,Ja,110.0,0.00087,6529.9
+34,5348,Herzogtum Lauenburg,Amt Stadt Mölln Wasserkrüger Weg 16,23879,Mölln,Möllner Welle,Mölln,Hallenbad,Ja,417.0,0.0033,24754.24
+35,5348,Herzogtum Lauenburg,Amt Stadt Mölln Wasserkrüger Weg 16,23879,Mölln,"Freibad Luisenbad, Am Schulsee",Mölln,Naturbad,Ja,48.0,0.00038,2849.41
+36,5358,Herzogtum Lauenburg,Amt Lauenburgische Seen Fünfhausen 1,23909,Ratzeburg,Freibadestelle am Ratzeburger See,Bäk,Naturbad,Ja,35.0,0.00028,2077.69
+37,5358,Herzogtum Lauenburg,Amt Lauenburgische Seen Fünfhausen 1,23909,Ratzeburg,Freibadestelle am Ratzeburger See Groß,Sarau,Naturbad,Ja,62.0,0.00049,3680.49
+38,5363,Herzogtum Lauenburg,Amt Stadt Ratzeburg Unter den Linden 1,23909,Ratzeburg,Aqua Siwa,Ratzeburg,Hallenbad,Ja,1420.0,0.01124,84295.01
+39,5388,Herzogtum Lauenburg,Gemeinde Wentorf bei Hamburg Hauptstraße 16,21465,Wentorf,bei Hamburg Lehrschwimmbecken Gemeinschaftsschule Wendtorf Wentorf bei,Hamburg,Hallenbad,Ja,2652.0,0.02099,157429.83
+40,5391,Herzogtum Lauenburg,Amt Sandesneben-Nusse Hauptstraße 75,23898,Sandesneben,Freibad Steinhorst,Steinhorst,Freibad,Ja,306.0,0.00242,18164.98
+41,5417,Nordfriesland,Amt Eiderstedt Welter Straße 1,25836,Garding,Dünen-Therme Sankt,Peter-Ording,Hallenbad,Ja,340.0,0.00269,20183.31
+42,5428,Nordfriesland,Amt Stadt Husum Zingel 10,25813,Husum,Hallenbad Husum,Husum,Hallenbad,Ja,1579.0,0.0125,93733.68
+43,5453,Nordfriesland,Amt Viöl Westerende 41,25884,Viöl,Freibad Ohrstedt,Oster-Ohrstedt,Freibad,Ja,285.0,0.00226,16918.36
+44,5453,Nordfriesland,Amt Viöl Westerende 41,25884,Viöl,Freibad Viöl,Viöl,Freibad,Ja,284.0,0.00225,16859.0
+45,5459,Nordfriesland,Gemeinde Pellworm Uthlandestraße 1,25849,Pellworm,PelleWelle Freizeitbad,Pellworm,Hallenbad,Ja,52.0,0.00041,3086.86
+46,5462,Nordfriesland,Amt Mittleres Nordfriesland Theodor-Storm-Straße 2,25821,Bredstedt,Erlebnisfreibad Bredstedt,Bredstedt,Freibad,Ja,450.0,0.00356,26713.21
+47,5462,Nordfriesland,Amt Mittleres Nordfriesland Theodor-Storm-Straße 2,25821,Bredstedt,Schwimmbad Breklum,Breklum,Freibad,Ja,148.0,0.00117,8785.68
+48,5469,Nordfriesland,Amt Stadt Tönning Am Markt 1,25832,Tönning,Freibad Tönning,Tönning,Freibad,Ja,102.0,0.00081,6054.99
+49,5488,Nordfriesland,Amt Föhr-Amrum Hafenstraße 23,25938,Wyk auf Föhr,AQUAFÖHR,Föhr,Hallenbad,Ja,908.0,0.00719,53901.32
+50,5488,Nordfriesland,Amt Föhr-Amrum Hafenstraße 23,25938,Wyk auf Föhr,AmrumBadeland,Amrum,Hallenbad,Ja,148.0,0.00117,8785.68
+51,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Freibad Klixbüll,Klixbüll,Freibad,Ja,176.0,0.00139,10447.83
+52,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Erlebnisbad Leck,Leck,Hallenbad,Ja,730.0,0.00578,43334.76
+53,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Hallenbad Niebüll,Niebüll,Hallenbad,Ja,2466.0,0.01952,146388.37
+54,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Schwimmbad Stadum,Stadum,Freibad,Ja,108.0,0.00085,6411.17
+55,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Freibad Süderlügum,Süderlügum,Freibad,Ja,77.0,0.00061,4570.93
+56,5489,Nordfriesland,Amt Südtondern Marktstraße 12,25899,Niebüll,Naturbad Ladelund,Ladelund,Naturbad,Ja,65.0,0.00051,3858.57
+57,5492,Nordfriesland,Amt Nordsee-Treene Schulweg 19,25866,Mildstedt,Schwimmbad Nordstrand,Nordstrand,Hallenbad,Ja,276.0,0.00218,16384.1
+58,5492,Nordfriesland,Amt Nordsee-Treene Schulweg 19,25866,Mildstedt,Schwimmbad Ostenfeld,Ostenfeld,Freibad,Ja,135.0,0.00107,8013.96
+59,5492,Nordfriesland,Amt Nordsee-Treene Schulweg 19,25866,Mildstedt,Schwimmbad Rantrum,Rantrum,Freibad,Ja,339.0,0.00268,20123.95
+60,5493,Nordfriesland,Amt Stadt Friedrichstadt Schulweg 19,25866,Mildstedt,Treenebad Friedrichstadt,Friedrichstadt,Naturbad,Ja,20.0,0.00016,1187.25
+61,5494,Nordfriesland,Gemeinde Reußenköge über Amt Mittleres Nordfriesland Theodor-Storm-Straße 2,25821,Bredstedt,Badestelle Hamburger Hallig,Reußenköge,Naturbad,Ja,50.0,0.0004,2968.13
+62,5495,Nordfriesland,Gemeinde Sylt Andreas-Nielsen-Straße 1,25980,Sylt,"Sylter Welle, Wellenbad",Sylt,Hallenbad,Ja,234.0,0.00185,13890.87
+63,5495,Nordfriesland,Gemeinde Sylt Andreas-Nielsen-Straße 1,25980,Sylt,"Sylter Welle, Sportschwimmbecken",Sylt,Hallenbad,Ja,1499.0,0.01186,88984.66
+64,5495,Nordfriesland,Gemeinde Sylt Andreas-Nielsen-Straße 1,25980,Sylt,"Syltness-Center, Bewegungsbad",Sylt,Hallenbad,Ja,190.0,0.0015,11278.91
+65,5505,Ostholstein,Amt Stadt Bad Schwartau Markt 15,23611,Bad Schwartau,Städtische Schwimmhalle Bad Schwartau Bad,Schwartau,Hallenbad,Ja,2494.0,0.01974,148050.53
+66,5518,Ostholstein,Amt Stadt Eutin Markt 1,23701,Eutin,Kirsten-Bruhn-Bad,Eutin,Hallenbad,Ja,977.0,0.00773,57997.34
+67,5524,Ostholstein,Gemeinde Grömitz Kirchenstraße 11,23743,Grömitz,Grömitzer Welle,Grömitz,Hallenbad,Ja,459.0,0.00363,27247.47
+68,5536,Ostholstein,Amt Stadt Heiligenhafen Markt 4 - 5,23774,Heiligenhafen,Aktiv-Hus Heiligenhafen Ostseepark,Heiligenhafen,Hallenbad,Ja,354.0,0.0028,21014.39
+69,5546,Ostholstein,Amt Lensahn Eutiner Straße 2,23738,Lensahn,Waldschwimmbad,Lensahn,Freibad,Ja,283.0,0.00224,16799.64
+70,5549,Ostholstein,Gemeinde Malente -Bauamt- Bahnhofstraße 31,23714,Bad Malente-Gremsmühl,Strandbad am Dieksee,Malente,Naturbad,Ja,74.0,0.00059,4392.84
+71,5564,Ostholstein,Gemeinde Ratekau Bäderstraße 19,23626,Ratekau,Naturbad Hemmelsdorfer See,Offendorf,Naturbad,Ja,75.0,0.00059,4452.2
+72,5578,Ostholstein,Gemeinde Timmendorfer Strand Strandallee 42,23669,Timmendorfer,Strand Meerwasserhallenbad Niendorf/Ostsee Timmendorfer,Strand,Hallenbad,Ja,661.0,0.00523,39238.73
+73,5588,Ostholstein,"Amt Stadt Fehmarn Burg a.F., Am Markt 1",23769,Fehmarn,FehMare,Fehmarn,Hallenbad,Ja,58.0,0.00046,3443.04
+74,5592,Ostholstein,Gemeinde Dahme Kirchenstraße 11,23743,Grömitz,StrandSpa Dahme,Dahme,Hallenbad,Ja,280.0,0.00222,16621.55
+75,5607,Pinneberg,Amt Stadt Barmstedt Am Markt 1,25355,Barmstedt,Badewonne Barmstedt,Barmstedt,Hallenbad,Ja,1081.0,0.00856,64171.06
+76,5620,Pinneberg,Amt Stadt Elmshorn Schulstraße 15 - 17,25335,Elmshorn,Badepark Elmshorn Traglufthalle,Elmshorn,Hallenbad,Ja,2586.0,0.02047,153511.9
+77,5620,Pinneberg,Amt Stadt Elmshorn Schulstraße 15 - 17,25335,Elmshorn,Badepark Elmshorn Freibad,Elmshorn,Freibad,Ja,691.0,0.00547,41019.61
+78,5620,Pinneberg,Amt Stadt Elmshorn Schulstraße 15 - 17,25335,Elmshorn,"Badepark Elmshorn, Erlebnisbad",Elmshorn,Hallenbad,Ja,300.0,0.00237,17808.8
+79,5632,Pinneberg,Gemeinde Helgoland Lung Wai 28,27498,Helgoland,"Mare Frisicum, Schwimmbad Helgoland, Freibad, Nord",Helgoland,Freibad,Ja,300.0,0.00237,17808.8
+80,5632,Pinneberg,Gemeinde Helgoland Lung Wai 28,27498,Helgoland,"Mare Frisicum, Schwimmbad Helgoland, Hallenbad, No",Helgoland,Hallenbad,Ja,300.0,0.00237,17808.8
+81,5652,Pinneberg,Amt Stadt Pinneberg Bismarckstraße 8,25421,Pinneberg,Bäder Pinneberg Schwimmhalle,Pinneberg,Hallenbad,Ja,2437.0,0.01929,144666.86
+82,5652,Pinneberg,Amt Stadt Pinneberg Bismarckstraße 9,25421,Pinneberg,Bäder Pinneberg Sprunghalle/Lehrschwimmbecken,Pinneberg,Hallenbad,Ja,689.0,0.00545,40900.89
+83,5652,Pinneberg,Amt Stadt Pinneberg Bismarckstraße 8,25421,Pinneberg,Bäder Pinneberg Außenbecken,Pinneberg,Freibad,Ja,41.0,0.00032,2433.87
+84,5656,Pinneberg,Amt Stadt Quickborn Rathausplatz 1,25451,Quickborn,Freibad Quickborn,Quickborn,Freibad,Ja,603.0,0.00477,35795.7
+85,5670,Pinneberg,Amt Stadt Schenefeld Holstenplatz 3 - 5,22869,Schenefeld,Lehrschwimmbecken Gorch-Fock-Schule,Schenefeld,Hallenbad,Ja,2513.0,0.01989,149178.42
+86,5678,Pinneberg,Amt Stadt Uetersen Wassermühlenstraße 7,25436,Uetersen,Jürgen-Frenzel-Schwimmhalle,Uetersen,Hallenbad,Ja,2260.0,0.01789,134159.66
+87,5684,Pinneberg,Amt Stadt Wedel Rathausplatz 3 - 5,22880,Wedel,Badebucht Kombibad Wedel GmbH; Sportbecken,Wedel,Hallenbad,Ja,2288.0,0.01811,135821.82
+88,5684,Pinneberg,Amt Stadt Wedel Rathausplatz 3 - 5,22880,Wedel,Badebucht Kombibad Wedel GmbH;,LehrschwimmbeckeWedel,Hallenbad,Ja,1831.0,0.01449,108693.07
+89,5687,Pinneberg,Amt Pinnau Hauptstraße 60,25462,Rellingen,Wasserwelt Ellerbek,Ellerbek,Hallenbad,Ja,1607.0,0.01272,95395.83
+90,5743,Plön,Amt Stadt Plön Schloßberg 3 - 4,24306,Plön,Hallenbad Plönbad Schwimmerbecken,Plön,Hallenbad,Ja,812.0,0.00643,48202.5
+91,5743,Plön,Amt Stadt Plön Schloßberg 3 - 4,24306,Plön,Hallenbad Plönbad Lehrschwimmbecken,Plön,Hallenbad,Ja,709.0,0.00561,42088.14
+92,5782,Plön,Amt Schrevenborn Dorfplatz 2,24226,Heikendorf,Seebadeanstalt Heikendorf,Heikendorf,Naturbad,Ja,113.0,0.00089,6707.98
+93,5788,Plön,Amt Stadt Schwentinental Theodor-Storm-Platz 1,24223,Schwentinental,Lehrschwimmbecken Klausdorf,Klausdorf,Hallenbad,Ja,2424.0,0.01919,143895.14
+94,5788,Plön,Amt Stadt Schwentinental Theodor-Storm-Platz 1,24223,Schwentinental,Freibad Schwentinental,Raisdorf,Freibad,Ja,340.0,0.00269,20183.31
+95,5820,Rendsburg-Eckernförde,Amt Stadt Büdelsdorf Am Markt 1,24782,Büdelsdorf,Naturerlebnissbad Büdelsdorf,Büdelsdorf,Freibad,Ja,256.0,0.00203,15196.85
+96,5827,Rendsburg-Eckernförde,Amt Stadt Eckernförde Rathausmarkt 4 - 6,24340,Eckernförde,Meerwasser-Wellenbad Eckernförde,Eckernförde,Hallenbad,Ja,1197.0,0.00947,71057.13
+97,5830,Rendsburg-Eckernförde,Amt Eidertal für die Gemeinde Flintbek Heitmannskamp 2,24220,Flintbek,Freibad Flintbek,Flintbek,Freibad,Ja,35.0,0.00028,2077.69
+98,5833,Rendsburg-Eckernförde,Amt Fockbek Rendsburger Str. 42,24787,Fockbek,Freibad Fockbek,Fockbek,Freibad,Ja,195.0,0.00154,11575.72
+99,5847,Rendsburg-Eckernförde,Amt Hohner Harde Rendsburger Str. 42,24787,Fockbek,Freibad Elsdorf-Westermühlen,Elsdorf-Westermühlen,Freibad,Ja,90.0,0.00071,5342.64
+100,5853,Rendsburg-Eckernförde,Amt Jevenstedt Meiereistraße 5,24808,Jevenstedt,Freibad Jevenstedt,Jevenstedt,Freibad,Ja,40.0,0.00032,2374.51
+101,5856,Rendsburg-Eckernförde,Gemeinde Kronshagen Rathausmarkt 7,24119,Kronshagen,Lehrschwimmbecken der Grundschule an den Eichen,Kronshagen,Hallenbad,Ja,1381.0,0.01093,81979.86
+102,5859,Rendsburg-Eckernförde,Amt Eidertal für die Gemeinde Molfsee Heitmannskamp 2,24220,Flintbek,Lehrschwimmbecken Grundschule Eidertal Molfsee,Molfsee,Hallenbad,Ja,1545.0,0.01223,91715.34
+103,5864,Rendsburg-Eckernförde,Amt Nortorfer Land Niedernstraße 6,24589,Nortorf,Freibad Timmaspe,Timmaspe,Freibad,Ja,147.0,0.00116,8726.31
+104,5864,Rendsburg-Eckernförde,Amt Nortorfer Land Niedernstraße 6,24589,Nortorf,Freibad Bokel,Bokel,Freibad,Ja,85.0,0.00067,5045.83
+105,5864,Rendsburg-Eckernförde,Amt Nortorfer Land Niedernstraße 6,24589,Nortorf,Badeland,Borgdorf-Seedorf,Naturbad,Ja,24.0,0.00019,1424.7
+106,5867,Rendsburg-Eckernförde,Amt Stadt Rendsburg Am Gymnasium 4,24768,Rendsburg,"Aquacity-Rendsburg, Hallenbad",Rendsburg,Hallenbad,Ja,1878.0,0.01486,111483.12
+107,5867,Rendsburg-Eckernförde,Amt Stadt Rendsburg Am Gymnasium 4,24768,Rendsburg,"Aquacity-Rendsburg, Freibad",Rendsburg,Freibad,Ja,326.0,0.00258,19352.23
+108,5888,Rendsburg-Eckernförde,Amt Eiderkanal Schulstraße 36,24783,Osterrönfeld,Freibad Osterrönfeld,Osterrönfeld,Freibad,Ja,68.0,0.00054,4036.66
+109,5895,Rendsburg-Eckernförde,Amt Mittelholstein Am Markt 15,24594,Hohenwestedt,Freibad Batz,Thaden,Freibad,Ja,68.0,0.00054,4036.66
+110,5895,Rendsburg-Eckernförde,Amt Mittelholstein Am Markt 15,24594,Hohenwestedt,Freibad Beringstedt,Beringstedt,Freibad,Ja,65.0,0.00051,3858.57
+111,5895,Rendsburg-Eckernförde,Amt Mittelholstein Am Markt 15,24594,Hohenwestedt,Freibad Aukrug,Aukrug,Freibad,Ja,80.0,0.00063,4749.01
+112,5895,Rendsburg-Eckernförde,Amt Mittelholstein Am Markt 15,24594,Hohenwestedt,Freibad Hohenwestedt,Hohenwestedt,Freibad,Ja,255.0,0.00202,15137.48
+113,5912,Schleswig-Flensburg,Amt Eggebek Hauptstraße 2,24852,Eggebek,Lehrschwimmbecken Eggebek,Eggebek,Hallenbad,Ja,1650.0,0.01306,97948.43
+114,5914,Schleswig-Flensburg,Amt Stadt Glücksburg (Ostsee) Schinderdam 5,24960,Glücksburg,(Ostsee) Fördeland Therme,Glücksburg,Hallenbad,Ja,517.0,0.00409,30690.51
+115,5916,Schleswig-Flensburg,Gemeindeverwaltung Handewitt Hauptstraße 9,24983,Handewitt,Schaulandhalle Jarplund Lehrschwimmbecken,Jarplund,Hallenbad,Ja,1024.0,0.0081,60787.39
+116,5917,Schleswig-Flensburg,Gemeinde Harrislee Süderstraße 101,24955,Harrislee,Schwimmhalle Harrislee,Harrislee,Hallenbad,Ja,1525.0,0.01207,90528.09
+117,5919,Schleswig-Flensburg,Amt Hürup Schulstraße 1,24975,Hürup,Freibadeanstalt Holmarksee Freienwill,Freienwill,Naturbad,Ja,50.0,0.0004,2968.13
+118,5937,Schleswig-Flensburg,Amt Langballig Süderende 1,24977,Langballig,Lehrschwimmbecken Grundschule Munkbrarup,Munkbrarup,Hallenbad,Ja,1755.0,0.01389,104181.51
+119,5940,Schleswig-Flensburg,Amt Oeversee Tornschauer Straße 3 - 5,24963,Tarp,Freibad Sieverstedt,Sieverstedt,Freibad,Ja,228.0,0.0018,13534.69
+120,5940,Schleswig-Flensburg,Amt Oeversee Tornschauer Straße 3 - 5,24963,Tarp,Freizeitbad Tarp,Tarp,Freibad,Ja,265.0,0.0021,15731.11
+121,5949,Schleswig-Flensburg,Amt Mittelangeln Bahnhofstraße 1,24986,Satrup,Freibad Satrup,Satrup,Freibad,Ja,604.0,0.00478,35855.06
+122,5952,Schleswig-Flensburg,Amt Schafflund Tannenweg 1,24980,Schafflund,Schwimmbad Waldeck,Schafflund,Freibad,Ja,322.0,0.00255,19114.78
+123,5954,Schleswig-Flensburg,Amt Stadt Schleswig Rathausmarkt 1,24837,Schleswig,Fjordarium Schleswig Sportbad,Schleswig,Hallenbad,Ja,1603.0,0.01269,95158.38
+124,5974,Schleswig-Flensburg,Amt Süderbrarup team Allee 22,24392,Süderbrarup,"Freibad ""Zur heiligen Quelle""",Süderbrarup,Freibad,Ja,495.0,0.00392,29384.53
+125,5990,Schleswig-Flensburg,Amt Geltinger Bucht Holmlück 2,24972,Steinbergkirche,Lehrschwimmbecken Heinrich-Andresen-Schule,Sterup,Hallenbad,Ja,1292.0,0.01023,76696.59
+126,5996,Schleswig-Flensburg,Amt Kropp-Stapelholm Am Markt 10,24848,Kropp,Geestlandbad,Kropp,Freibad,Ja,396.0,0.00313,23507.62
+127,5996,Schleswig-Flensburg,Amt Kropp-Stapelholm Am Markt 10,24848,Kropp,Freibad Erfde,Erfde,Freibad,Ja,132.0,0.00104,7835.87
+128,6005,Segeberg,"Amt Bad Bramstedt-Land, Fachbereich 3 König-Christian-Straße 6",24576,Bad Bramstedt,Freibad Wiemersdorf (Herrmannsbad),Wiemersdorf,Freibad,Ja,61.0,0.00048,3621.12
+129,6009,Segeberg,Amt Stadt Bad Bramstedt Bleeck 15 - 19,24576,Bad Bramstedt,Roland-Oase Bad Bramstedt Bad,Bramstedt,Freibad,Ja,880.0,0.00697,52239.16
+130,6014,Segeberg,Amt Stadt Bad Segeberg Lübecker Straße 9,23795,Bad Segeberg,Hallenbad Bad Segeberg Bad,Segeberg,Hallenbad,Ja,550.0,0.00435,32649.48
+131,6024,Segeberg,Amt Bornhöved / Gemeinde Trappenkamp Am Markt 3,24610,Trappenkamp,Waldschwimmbad Trappenkamp,Trappenkamp,Freibad,Ja,123.0,0.00097,7301.61
+132,6026,Segeberg,Gemeinde Ellerau Berliner Damm 2,25479,Ellerau,Freibad Ellerau,Ellerau,Freibad,Ja,557.0,0.00441,33065.01
+133,6029,Segeberg,Gemeinde Henstedt-Ulzburg Rathausplatz 1,24558,Henstedt-Ulzburg,Naturbad Beckersberg,Henstedt-Ulzburg,Naturbad,Ja,70.0,0.00055,4155.39
+134,6034,Segeberg,Gemeinde Itzstedt über Amt Itzstedt Segeberger Straße 41,23845,Itzstedt,Freibad Itzstedt,Itzstedt,Naturbad,Ja,60.0,0.00047,3561.76
+135,6039,Segeberg,Amt Stadt Kaltenkirchen Holstenstraße 14,24568,Kaltenkirchen,HolstenTherme (Freibad),Kaltenkirchen,Freibad,Ja,374.0,0.00296,22201.64
+136,6039,Segeberg,Amt Stadt Kaltenkirchen Holstenstraße 14,24568,Kaltenkirchen,HolstenTherme (Sportbecken u. Erlebnisbad),Kaltenkirchen,Hallenbad,Ja,1309.0,0.01036,77705.75
+139,6048,Segeberg,Amt Kisdorf Winsener Straße 2,24568,Kattendorf,Freibad Struvenhütten,Struvenhütten,Freibad,Ja,140.0,0.00111,8310.78
+140,6058,Segeberg,Amt Stadt Norderstedt Rathausallee 50,22846,Norderstedt,"Arriba-Erlebnissbad-Norderstedt, Freibad",Norderstedt,Freibad,Ja,30.0,0.00024,1780.88
+141,6058,Segeberg,Amt Stadt Norderstedt Rathausallee 50,22846,Norderstedt,"Arriba-Erlebnissbad-Norderstedt, Hallenbad",Norderstedt,Hallenbad,Ja,150.0,0.00119,8904.4
+142,6058,Segeberg,Amt Stadt Norderstedt Rathausallee 50,22846,Norderstedt,Lehrschwimmbecken Pestalozzistraße,Norderstedt,Hallenbad,Ja,2476.0,0.0196,146982.0
+143,6058,Segeberg,Amt Stadt Norderstedt Rathausallee 50,22846,Norderstedt,"Schul- und Vereinsschwimmhalle, Wiesenstr.",Norderstedt,Hallenbad,Ja,3744.0,0.02963,222253.88
+144,6063,Segeberg,Amt Boostedt-Rickling Twiete 9,24598,Boostedt,Freibad Rickling,Rickling,Freibad,Ja,68.0,0.00054,4036.66
+145,6078,Segeberg,Amt Stadt Wahlstedt Markt 3,23812,Wahlstedt,Aqua Fun Hallenbad,Wahlstedt,Hallenbad,Ja,1483.0,0.01174,88034.86
+146,6078,Segeberg,Amt Stadt Wahlstedt Markt 3,23812,Wahlstedt,Aqua Fun Freibad,Wahlstedt,Freibad,Ja,107.0,0.00085,6351.81
+147,6104,Steinburg,Amt Breitenburg Osterholz 5,25524,Breitenburg,Freibad Lägerdorf,Lägerdorf,Freibad,Ja,42.0,0.00033,2493.23
+148,6109,Steinburg,Amt Stadt Glückstadt Am Markt 4,25348,Glückstadt,Fortuna Bad,Glückstadt,Freibad,Ja,190.0,0.0015,11278.91
+149,6134,Steinburg,Amt Horst-Herzhorn Elmshorner Straße 27,25358,Horst,(Holstein) Freibad Horst,Horst,Freibad,Ja,119.0,0.00094,7064.16
+150,6139,Steinburg,Amt Stadt Itzehoe Reichenstraße 23,25524,Itzehoe,Schwimmzentrum Itzehoe Hallenbad,Itzehoe,Hallenbad,Ja,2498.0,0.01977,148287.98
+151,6139,Steinburg,Amt Stadt Itzehoe Reichenstraße 23,25524,Itzehoe,Schwimmzentrum Itzehoe Freibad,Itzehoe,Freibad,Ja,64.0,0.00051,3799.21
+152,6153,Steinburg,Amt Krempermarsch Birkenweg 29,25361,Krempe,Freibad Krempe,Krempe,Freibad,Ja,122.0,0.00097,7242.25
+153,6168,Steinburg,Amt Schenefeld Holstenstr. 42-48,25560,Schenefeld,Freibad der Gemeinde Wacken,Wacken,Freibad,Ja,15.0,0.00012,890.44
+154,6168,Steinburg,Amt Schenefeld Holstenstr. 42-48,25560,Schenefeld,Lehrschwimmbecken Grund- und Gemeinschaftsschule,Schenefeld,Hallenbad,Ja,460.0,0.00364,27306.83
+155,6183,Steinburg,Amt Stadt Wilster Kohlmarkt 25,25554,Wilster,Euer Wilsterbad,Wilster,Hallenbad,Ja,600.0,0.00475,35617.61
+156,6189,Steinburg,Amt Kellinghusen Am Markt 9,25548,Kellinghusen,Freibad Kellinghusen,Kellinghusen,Freibad,Ja,222.0,0.00176,13178.52
+157,6189,Steinburg,Amt Kellinghusen Am Markt 9,25548,Kellinghusen,Freibad Brokstedt,Brokstedt,Freibad,Ja,470.0,0.00372,27900.46
+158,6189,Steinburg,Amt Kellinghusen Am Markt 9,25548,Kellinghusen,Lehrschwimmbecken Grundschule Hohenlockstedt,Hohenlockstedt,Hallenbad,Ja,809.0,0.0064,48024.41
+159,6203,Stormarn,Amt Stadt Ahrensburg Manfred-Samusch-Straße 5,22926,Ahrensburg,"badlantic Ahrensburg, Sportbecken",Ahrensburg,Hallenbad,Ja,2736.0,0.02166,162416.3
+160,6203,Stormarn,Amt Stadt Ahrensburg Manfred-Samusch-Straße 5,22926,Ahrensburg,"badlantic Ahrensburg, Lehrschwimmbecken",Ahrensburg,Hallenbad,Ja,1948.0,0.01542,115638.51
+161,6203,Stormarn,Amt Stadt Ahrensburg Manfred-Samusch-Straße 5,22926,Ahrensburg,"badlantic Ahrensburg Wellenbecken, Freiwasser Bereic",Ahrensburg,Hallenbad,Ja,180.0,0.00142,10685.28
+162,6203,Stormarn,Amt Stadt Ahrensburg Manfred-Samusch-Straße 6,22926,Ahrensburg,"badlantic Ahrensburg, Warmwasserbecken",Ahrensburg,Hallenbad,Ja,540.0,0.00427,32055.85
+163,6214,Stormarn,Amt Stadt Bargteheide Rathausstraße 26,22941,Bargteheide,Freizeitbad Bargteheide,Bargteheide,Freibad,Ja,1812.0,0.01434,107565.18
+164,6222,Stormarn,Gemeinde Barsbüttel Stiefenhoferplatz 1,22885,Barsbüttel,Hallenbad Barsbüttel,Barsbüttel,Hallenbad,Ja,1971.0,0.0156,117003.85
+165,6231,Stormarn,Amt Stadt Glinde Markt 1,21509,Glinde,Lehrschwimmhalle Grundschule Tannenweg,Glinde,Hallenbad,Ja,1321.0,0.01046,78418.1
+166,6246,Stormarn,Amt Stadt Reinbek Hamburger Straße 5 - 7,21465,Reinbek,Freizeitbad Reinbek,Reinbek,Hallenbad,Ja,3226.0,0.02553,191504.01
+167,6270,Stormarn,Amt Trittau Europaplatz 5,22946,Trittau,Schönaubad,Trittau,Freibad,Ja,271.0,0.00214,16087.29
+168,9999,Steinburg,Kreis Steinburg Viktoriastraße 16-18,25524,Itzehoe,Steinburgschule,Itzehoe,Hallenbad,Ja,546.0,0.00432,32412.02

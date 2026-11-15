@@ -1,0 +1,240 @@
+﻿osm_id,name,lat,lon,class,leisure,access,operator,n_members
+way/370656290,ARRIBA Erlebnisbad,53.6894988,10.0010942,indoor,sports_centre,,Stadtwerke Norderstedt,10
+node/2841288929,Alte Badestelle,53.8652641,10.2608067,unknown,,,,1
+way/371222385,Alte Schwimmhalle List,55.0182691,8.4247414,indoor,sports_centre,,,1
+node/1689196930,Altstadtbad Krähenteich,53.8620176,10.6905059,unknown,water_park,,,1
+node/6699187070,Am Gildehus,54.220782,10.2974228,unknown,,,,1
+way/6072291,Amrum Badeland,54.6278829,8.3751863,indoor,water_park,,,1
+way/237112117,Aqua Fun,53.9570232,10.2059801,indoor,water_park,,,1
+way/278275510,Aqua Fun Bad Segeberg,53.9338066,10.3056967,indoor,water_park,,,1
+way/32952669,Aquacity Rendsburg,54.3024813,9.6542131,unknown,sports_centre,,,5
+way/137473842,Aquaföhr,54.6829809,8.5673029,indoor,water_park,,,2
+way/1414978183,Außenbecken,54.8371901,9.5341178,unknown,swimming_pool,customers,,1
+way/452690119,Babybecken,54.2138302,10.8762796,unknown,swimming_pool,,,1
+way/1310475245,Bad am Stadtwald,54.0818255,9.9597482,unknown,sports_centre,,,4
+way/24476411,Badeanstalt,53.8347026,10.482233,unknown,water_park,,,1
+way/76228588,Badeanstalt Großer Pönitzer See,54.0296719,10.7030481,unknown,water_park,,,1
+way/621197885,Badeanstalt Offendorf,53.946863,10.7746507,unknown,water_park,,Gemeinde Ratekau,1
+node/3280546529,Badebro,54.6283299,9.3908317,unknown,water_park,,,1
+way/27572045,Badebucht,53.5780625,9.6960999,indoor,sports_centre,,,5
+node/1357473721,Badeinsel,53.5276127,10.6830393,unknown,water_park,,,2
+way/117722622,Badeland des TuS Nortorf,54.1739248,9.8796866,indoor,sports_centre,,TuS Nortorf von 1859 e.V.,1
+way/58509091,Badepark Elmshorn,53.7552217,9.6695297,unknown,water_park,,Stadtwerke Elmshorn,5
+node/433581091,Badeplatz Langballigau,54.8227886,9.6561915,unknown,,,,1
+node/430844749,Badeplatz Lüttmoorsiel,54.5610348,8.8699418,unknown,,,,1
+node/434312380,Badeplatz Westerholz,54.8204318,9.6727299,unknown,,,,2
+node/389153570,Badestelle,54.2945458,10.5150123,unknown,,,,1
+node/430819082,Badestelle,54.6002653,8.8100566,unknown,,,,1
+node/430843130,Badestelle,54.460701,8.8440537,unknown,,,,1
+node/473388870,Badestelle,54.6873674,8.3187952,unknown,,,,1
+node/2964998083,Badestelle,54.7960822,8.658873,unknown,,,,1
+node/9490717070,Badestelle Fresendelf,54.3908895,9.257523,unknown,,,,1
+way/107178241,Badestelle Krummsee,54.1955532,10.6008808,unknown,,,,1
+node/820493967,Badestelle Küchensee,53.6952448,10.7749043,unknown,,,,1
+node/101050525,Badestelle Leezen,53.8677558,10.2622676,unknown,,,,1
+node/13125045951,Badestelle Lundenbergsand,54.4572327,8.9782397,unknown,sports_centre,,,1
+node/440671748,Badestelle Moorteich,53.8859304,10.5274081,unknown,,,,1
+way/493669047,Badestelle Rantzauer See,53.7851274,9.7645888,unknown,,,,1
+node/863164527,Badestelle Schlüttsiel,54.6809326,8.7549522,unknown,,,,1
+node/1492340877,Badestelle Sörup-Südensee,54.7105997,9.663601,unknown,,,,1
+node/794712052,Badestelle Westerdeichstrich,54.1535224,8.8219951,unknown,sports_centre,,,1
+node/2841288930,Badestelle Wichmannsberg,53.8679619,10.261939,unknown,,,,1
+node/8303892007,Badestelle der Gemeinde Hennstedt,54.0183886,9.7127786,unknown,sports_centre,,,1
+node/1078686482,Badestelle mit Dusche,54.6759108,8.6828595,unknown,,,,1
+node/9967743632,Badestelle mit Seil,54.1437339,10.4717014,unknown,,,,1
+node/441894350,Badestrand,54.6827155,9.9954486,unknown,,,,1
+way/26791852,Badlantic,53.6815404,10.2349899,indoor,sports_centre,,,6
+way/25030968,Barmstedter Badewonne,53.7854643,9.7640852,indoor,water_park,,Stadtwerke Barmstedt,1
+node/5898641156,Beco Schwimmshop,53.4279895,10.3731754,unknown,,,,1
+way/170185529,Blue Spa,54.8600595,8.2963117,indoor,water_park,,Dorfhotel Sylt,1
+node/8460566006,Costa Kiesa,53.7354161,10.0298129,unknown,water_park,,,1
+node/5047977636,DLRG,54.511218,9.5585895,unknown,,,,1
+way/148188079,DLRG Husum e. V.,54.4959085,9.0675476,indoor,,,,1
+way/378428785,Dithmarscher Wasserwelt,54.2033605,9.1140395,indoor,water_park,,Stadtwerke Heide GmbH,3
+way/91119946,Dünen-Therme,54.3158523,8.604209,indoor,water_park,,,5
+node/1512554782,Dünenbad,54.3093811,10.7925589,unknown,water_park,,,1
+way/118293122,Eiderbad,54.2405055,10.0504218,unknown,sports_centre,,,3
+way/90023382,Eiderbad Hammer,54.2856249,10.0711101,unknown,sports_centre,,,3
+way/353153593,Entdeckerbad,54.5883056,10.0232833,indoor,water_park,,ostsee resort damp GmbH,2
+way/148770951,Erlebnisbad Leck,54.7677093,8.9806711,indoor,water_park,,,1
+way/26412166,Erlebnisbecken,53.4274754,10.3737915,unknown,swimming_pool,,,1
+way/1414978182,Erlebnisbecken,54.8374179,9.5341828,unknown,swimming_pool,customers,,1
+way/102355549,Erlebnisfreibad Bredstedt,54.613543,8.9725278,outdoor,water_park,,,4
+node/473388873,FKK Badestelle,54.6857525,8.3162677,unknown,,,,1
+node/794712056,FKK Badestelle Westerdeichstrich,54.157762,8.8212363,unknown,,,,1
+way/51428753,FehMare Erlebnisbad,54.4114953,11.2089811,indoor,water_park,,,1
+way/87745844,Fjordarium,54.5190529,9.5508107,indoor,sports_centre,,,1
+node/4589388240,Flensburger Schwimmklub von 1930 e.V.,54.7805769,9.4791945,unknown,,,,1
+way/34296105,Fortuna-Bad,53.7896434,9.4183049,unknown,water_park,,,4
+way/37642150,Frei- und Hallenbad Wahlstedt,53.9564661,10.2058451,indoor,water_park,,,5
+way/140398006,"Freibad ""Zur heiligen Quelle""",54.6401973,9.7830809,outdoor,sports_centre,,Amt Süderbrarup,2
+way/35904823,Freibad Alveslohe,53.7819639,9.9168645,outdoor,water_park,,,2
+way/35820042,Freibad Aukrug,54.0754631,9.7904124,outdoor,sports_centre,,,4
+way/1408245594,Freibad Bargteheide,53.72292,10.2506839,outdoor,water_park,,,4
+way/1110386449,Freibad Batz,54.1147405,9.4223425,outdoor,sports_centre,,,2
+way/1275391408,Freibad Bokel,54.2166579,9.7952849,outdoor,sports_centre,,,3
+way/293857059,Freibad Bordelum,54.638835,8.9253609,outdoor,sports_centre,,,2
+way/1056077485,Freibad Brokstedt,53.9942717,9.8259537,outdoor,sports_centre,,,2
+way/211131737,Freibad Dellstedt,54.2354628,9.3748663,outdoor,sports_centre,,,2
+way/1083546798,"Freibad Dieksee, Malente",54.1678888,10.5404547,outdoor,swimming_area,,,1
+way/136914565,Freibad Ellerau,53.7531211,9.9196754,outdoor,water_park,,Gemeinde Ellerau,4
+way/674063922,Freibad Elsdorf-Westermühlen,54.2621979,9.5211753,outdoor,sports_centre,,,4
+way/225203436,Freibad Erfde,54.3075064,9.325234,outdoor,water_park,,,3
+way/235843412,Freibad Fockbek,54.3018689,9.6052308,outdoor,water_park,,,4
+way/119311231,Freibad Hemmingstedt,54.1545171,9.089653,outdoor,water_park,,,4
+way/378438288,Freibad Hennstedt,54.2888803,9.1623871,outdoor,water_park,,,2
+way/608158605,Freibad Hohenwestedt,54.0911443,9.6696099,outdoor,sports_centre,,,4
+way/197670720,Freibad Horst,53.8142333,9.6202061,outdoor,,,,2
+way/128447824,Freibad Itzehoe,53.9359761,9.5214329,outdoor,park,,,3
+way/37183556,Freibad Katzheide,54.3098452,10.1575985,outdoor,sports_centre,,,2
+way/85346084,Freibad Kellinghusen,53.9481932,9.7109827,outdoor,water_park,,,3
+way/219706695,Freibad Kiessee,53.631378,9.7377946,outdoor,swimming_area,yes,,1
+way/285099577,Freibad Krempe,53.8328194,9.4951545,outdoor,water_park,,Amt Krempermarsch,4
+way/741994986,Freibad Kuhgrund,53.3723601,10.5439837,outdoor,sports_centre,,Freibad Lauenburg,7
+way/203552728,Freibad Lunden,54.3254934,9.029824,outdoor,water_park,,,3
+relation/898730,Freibad Lägerdorf,53.8887912,9.5799209,outdoor,water_park,,Förderverein Freibad Lägerdorf e. V.,3
+way/72193889,Freibad Moisling,53.8403747,10.6233292,outdoor,water_park,,,2
+way/186935584,Freibad Ohrstedt,54.5133094,9.2080796,outdoor,water_park,,,2
+way/26015339,Freibad Oldendorf,53.9538301,9.4590167,outdoor,sports_centre,,,3
+way/378438278,Freibad Pahlen,54.2640906,9.2986646,outdoor,water_park,,,3
+node/271281302,Freibad Poggensee,53.8255407,10.3867398,outdoor,water_park,,Stadtwerke Bad Oldesloe,1
+way/409216101,Freibad Quarnstedt,53.9485932,9.7910044,outdoor,water_park,,Gemeinde Quarnstedt,2
+way/4042479,Freibad Quickborn,53.732687,9.9015407,outdoor,water_park,,,5
+way/624574680,Freibad Rickling,54.0075324,10.1737856,outdoor,water_park,,,4
+way/1100958861,Freibad Risum,54.74658,8.8423466,outdoor,swimming_pool,,,1
+way/238861296,Freibad Satrup,54.6957249,9.5948672,outdoor,water_park,,,2
+way/139241481,Freibad Schlutup,53.8795065,10.7947519,outdoor,,,,2
+way/27103854,Freibad Schwentinental,54.2867697,10.2465895,outdoor,sports_centre,,Stadtwerke Schwentinental,4
+way/240103199,Freibad St. Michaelisdonn,53.9926452,9.1178947,outdoor,water_park,,,3
+way/253495624,Freibad Stadum,54.739956,9.0533399,outdoor,sports_centre,,,3
+way/87682404,Freibad Steinhorst,53.7180044,10.4856361,outdoor,water_park,,,2
+way/676134297,Freibad Struvenhütten,53.8614331,10.0600255,outdoor,water_park,,,3
+way/156992334,Freibad Südstrand Großensee,53.6125004,10.3467814,outdoor,sports_centre,,,3
+way/126075768,Freibad Timmaspe,54.1432877,9.8911194,outdoor,sports_centre,,,2
+way/439763738,Freibad Tönning,54.3085647,8.9353054,outdoor,water_park,,Stadt Tönning,3
+way/69583688,Freibad Ulitzhörn,53.8890234,9.1304916,outdoor,water_park,,,2
+relation/3522688,Freibad Wacken,54.0168233,9.3891769,outdoor,water_park,,,4
+way/155257369,Freibad Weiche,54.7594521,9.3897531,outdoor,sports_centre,,Fürder- und Trägerverein Jugendtreff Weiche e.V.,3
+way/65477218,Freibad Wiemersdorf,53.959107,9.9075629,outdoor,water_park,,,3
+way/1239183418,Freibad Wohlde,54.4080836,9.3064718,outdoor,water_park,,,3
+way/324541913,Freibadanlage der Gemeinde Hohenlockstedt,53.9659085,9.5973679,outdoor,park,,Gemeinde Hohenlockstedt,1
+node/1234099791,Freibadeanstalt,54.1438867,10.6211801,outdoor,water_park,,,1
+node/766149364,Freibadeanstalt Hollmarksee,54.7151481,9.4956819,outdoor,swimming_area,,,1
+way/102535552,Freizeitbad Albersdorf,54.1523071,9.2806308,unknown,water_park,customers,,3
+way/163061799,Freizeitbad Brunsbüttel,53.8988596,9.1331758,indoor,water_park,,,2
+relation/2717112,Freizeitbad Geesthacht,53.4273915,10.3741021,unknown,water_park,,Wirtschaftsbetriebe Geesthacht GmbH,2
+way/116707941,Freizeitbad Osterrönfeld,54.2854473,9.6970409,unknown,sports_centre,,,3
+way/279194724,Freizeitbad Reinbek,53.5209909,10.2428565,indoor,sports_centre,customers,Freizeitbad Reinbek Betriebsgesellschaft mbH,2
+way/301010587,Freizeitbad Sylter Welle,54.9098412,8.2998415,indoor,water_park,,,2
+way/142236694,Freizeitbad Tarp,54.6554984,9.3993329,unknown,sports_centre,,,3
+way/29486073,Fördelandtherme,54.8375343,9.5340572,indoor,water_park,,,1
+way/89058602,Geestlandbad Kropp,54.4276297,9.5222255,unknown,water_park,,,2
+node/5516552137,Gretel und Ralf´s Schwimmschule,54.7706842,8.9896263,unknown,swimming_pool,,,1
+node/12920883830,Grömitzer Welle,54.143917,10.960212,unknown,water_park,,Tourismus-Service Grömitz,1
+way/477199506,Hallenbad,54.0888823,10.8615877,indoor,sports_centre,,,1
+way/92134963,Hallenbad Aqua Siwa,53.695372,10.7757175,indoor,water_park,,,1
+way/289208446,Hallenbad Möllner Welle,53.6255371,10.689611,indoor,water_park,,,1
+way/142263346,Hallenbad Niebüll,54.7886416,8.8236483,indoor,water_park,,,1
+way/30212446,Hallenbad Wilster,53.9243635,9.3689235,indoor,sports_centre,,Stadtwerke Wilster,1
+relation/9761524,HolstenTherme,53.8381993,9.9440361,indoor,water_park,,,7
+node/12254926469,Hundestrand,54.4811528,9.0064249,unknown,,,,1
+way/26668625,Husum Bad,54.4825988,9.0688255,indoor,sports_centre,yes,Stadtwerke Husum,1
+way/405576177,Hörnbad,54.3089301,10.1349049,indoor,sports_centre,,,2
+way/685313464,Jevenstedter Freibad,54.2302642,9.655923,outdoor,sports_centre,,,2
+way/363750772,Jürgen-Frenzel-Schwimmhalle,53.6856786,9.6682759,indoor,sports_centre,,Stadt Uetersen,1
+way/66255566,Kalifornien,54.4295409,10.3741417,unknown,,,,1
+way/66255576,Kalifornien,54.431969,10.3612157,unknown,,,,1
+way/574795693,Kaltwasserbecken,54.9102328,8.2999598,unknown,swimming_pool,customers,Sylter-Welle,1
+way/1230702701,Keine öffentliche Badestelle,54.3843929,9.7229462,unknown,,,,1
+way/1414978189,Kinder-Außenbecken,54.8374239,9.5339888,unknown,swimming_pool,customers,,1
+way/174979376,Kinderbecken,54.4329969,9.128343,unknown,swimming_pool,,,2
+way/293857100,Kinderbecken,54.6387908,8.9256958,unknown,swimming_pool,,,1
+way/925955623,Kinderbecken,53.7324347,9.9009111,unknown,swimming_pool,,,1
+node/13752668124,Kinderschwimmschule Käpten Krüger,54.260864,10.0645815,unknown,swimming_pool,permit,,1
+node/420544717,Kirsten-Bruhn-Bad,54.142236,10.6143652,indoor,sports_centre,,,1
+node/2392394346,Klausdorfer Strand,54.4547674,11.2763889,unknown,,,,1
+way/26412277,Kleinkindbecken,53.4270912,10.3740125,unknown,swimming_pool,,,1
+way/229605668,Kleinkinderbecken,53.6109632,10.4111398,unknown,swimming_pool,,,1
+way/200946335,Kurmittelcentrum,54.3590204,11.0873025,indoor,,,,1
+way/943380927,Kursbecken,53.4273483,10.3742449,unknown,swimming_pool,,,1
+way/321037172,Lehrschwimmhalle Pestalozzistraße,53.7311718,9.9959856,indoor,sports_centre,,,1
+node/314579523,Lieblingsplatz,53.9403981,10.3163498,unknown,,,,1
+node/384941647,Luisenbad,53.6316404,10.6999486,unknown,water_park,,,1
+way/122554826,Luisenbad,54.5112285,9.559075,unknown,,,,1
+way/608158602,Luisenbad Schenefeld,54.0479663,9.4648545,unknown,water_park,,,1
+node/2975396099,Mare Frisicum,54.1851022,7.8886967,indoor,sports_centre,customers,,5
+way/228750105,Meerwasser-Hallen-Freibad,54.1908507,11.0642017,indoor,sports_centre,,,2
+way/237228830,Meerwasser-Hallenbad,53.9915717,10.8340017,indoor,sports_centre,,Gemeinde Timmendorfer Strand,1
+node/338517960,Meerwasserwellenbad,54.4654305,9.8401009,outdoor,water_park,,,1
+way/142115557,Meerzeit,54.128133,8.856829,unknown,water_park,,,1
+way/149922547,Naturbad Beckersberg,53.7939906,9.9915623,outdoor,water_park,,,1
+node/25348158,Naturbad Falkenwiese,53.8695968,10.7045446,outdoor,water_park,,,1
+node/61824259,Naturbad Kleiner See,53.8410632,10.7341345,outdoor,water_park,,,1
+node/829891965,Naturbad Marli,53.8706822,10.7074253,outdoor,water_park,,,1
+way/150543784,Naturerlebnisbad Büdelsdorf,54.3171408,9.6930782,unknown,water_park,,,3
+way/1525246384,Naturteich,53.5341248,10.2077427,unknown,swimming_pool,,,2
+way/299441651,Nichtschwimmerbecken,54.2136902,10.876978,unknown,swimming_pool,,,1
+way/68327882,Nordstrand Lütjensee,53.6566751,10.3747245,unknown,,,,1
+way/53573920,Ostseetherme,54.0108861,10.7696156,indoor,water_park,,,5
+node/1146302193,Panorama Schwimmbad,54.5840168,10.0251888,unknown,,,,1
+node/438102756,Panoramic Schwimmhalle,54.071719,10.7746763,indoor,water_park,,,1
+way/87850732,Pellewelle,54.5188428,8.6837094,indoor,water_park,,,1
+way/126075803,Planschbecken,54.1434555,9.891293,unknown,swimming_pool,,,1
+way/1363123084,Planschbecken,53.8798688,10.7948018,unknown,swimming_pool,,,1
+way/118839889,PlönBad,54.1561782,10.4486434,indoor,sports_centre,,Stadt Plön,1
+node/12091355053,Qiara,54.9093275,8.3053867,unknown,,,,1
+way/378438289,Quellenbad,54.1684484,9.3228544,unknown,water_park,,,3
+way/97166430,ReTaHa,54.10063,10.8078409,indoor,,,,1
+way/57997376,Roland Oase,53.9184262,9.8867244,unknown,water_park,,,5
+way/943321399,SG Wasserratten Norderstedt,53.6885791,10.0001752,indoor,sports_centre,,,1
+way/627609797,Sachsenwaldbad,53.5116752,10.2722354,outdoor,sports_centre,yes,,1
+node/12538893568,Schwimmbad Harrislee,54.8064356,9.3941892,unknown,sports_centre,,Gemeinde Harrislee,1
+way/28866778,Schwimmbad Kücknitz,53.90653,10.798882,indoor,swimming_pool,,,1
+node/5929104108,Schwimmbad Nordstrand,54.504376,8.8234294,unknown,water_park,,,1
+way/25505936,Schwimmbad Pinneberg,53.6512769,9.8047442,indoor,sports_centre,,Stadtwerke Südholstein,3
+way/174875279,Schwimmbad Schafstedt,54.0773708,9.2984976,unknown,water_park,,,3
+way/52349722,Schwimmbad Süderlügum,54.8740497,8.9048384,unknown,,,,4
+way/126097413,Schwimmbad Viöl,54.5700254,9.1798612,unknown,sports_centre,,,3
+way/239860940,Schwimmbad Waldeck e.V.,54.7606936,9.1972131,unknown,water_park,,,4
+way/37702606,Schwimmbad Westerrönfeld,54.2874583,9.6570129,unknown,sports_centre,,,2
+way/26412156,Schwimmerbecken,53.4274442,10.3729554,unknown,swimming_pool,,,1
+way/299441650,Schwimmerbecken,54.2138595,10.8765382,unknown,swimming_pool,,,1
+way/1080924223,Schwimmfreunde Stapelfeld,53.6181149,10.2235863,unknown,sports_centre,,,1
+way/52622266,Schwimmhalle Bad Schwartau,53.9189152,10.6902654,indoor,sports_centre,,Bad Schwartau,1
+way/185845495,Schwimmhalle Barsbüttel,53.5724491,10.1620994,indoor,water_park,,,1
+way/141042166,Schwimmhalle Marne,53.9492894,9.0031451,indoor,sports_centre,,,1
+way/268400003,Schwimmhalle Preetz,54.2412036,10.2647483,indoor,sports_centre,,Stadt Preetz,1
+way/118925109,Schwimmhalle Schilksee,54.4292341,10.1686378,indoor,sports_centre,,,1
+way/134178943,Schwimmhalle Schmiedestraße,53.8644231,10.6840086,indoor,sports_centre,,,1
+node/7132603496,Schwimmzentrum Elmshorn,53.7555309,9.67358,indoor,sports_centre,,FTSV Fortuna Elmshorn von 1890 e. V.,1
+way/128333898,Schwimmzentrum Itzehoe,53.9360891,9.5196072,indoor,water_park,,Stadtwerke Itzehoe GmbH,3
+way/126531975,Schwimmzentrum Rendsburg,54.3032704,9.6543643,indoor,sports_centre,,,1
+way/229605630,Schönaubad Trittau,53.6109205,10.4093773,indoor,sports_centre,,,3
+node/6131073777,Seebad,53.9613698,10.8820939,outdoor,water_park,,a-ja Resort und Hotel GmbH,2
+way/25799085,Seebad Düsternbrook,54.346787,10.1537896,outdoor,swimming_area,,,1
+way/274015356,Seebadeanstalt Norgaardholz,54.7858109,9.7995233,indoor,sports_centre,,,1
+way/24454367,Sommerbad Volksdorf,53.6621545,10.1834628,unknown,swimming_area,,Hamburger Bund für Freikörperkultur und Familiensport,1
+node/9110215777,Sportbad,54.7769819,9.4523276,indoor,sports_centre,,,6
+way/31358269,Sportbad St. Lorenz,53.8635699,10.6486245,indoor,sports_centre,,,1
+way/23971641,Springerbecken,53.6109495,10.4104921,unknown,swimming_pool,customers,Gemeinde Trittau,1
+node/477573636,Strand 1,53.7859551,10.6724008,unknown,,,,1
+node/2892736906,Strand 2,53.7841055,10.6739551,unknown,,,,1
+node/263893775,Strandbad,53.5702347,9.6949348,outdoor,,,,1
+way/113558330,Strandbad,54.0910902,10.8195208,outdoor,swimming_area,,,1
+node/499446878,Strandbad Bredenbeker Teich,53.6806125,10.1906193,outdoor,water_park,,Campingplatz Bredenbeker Teich e.V.,1
+way/172272540,Städtisches Freibad Wesselburen,54.2166352,8.9256722,outdoor,water_park,,,4
+node/451701034,Subtropisches Badeparadies,54.3106469,10.7979831,unknown,water_park,,Ferien- und Freizeitpark Weissenhäuser Strand,1
+node/3037496004,Surfschule Timmendorfer Strand,54.0081693,10.7731127,unknown,sports_centre,,Axel Sommer,1
+way/141574257,Südstrand,54.0879652,10.8348685,unknown,,,,1
+node/267293172,Tonteich,53.511921,10.2730403,unknown,,,,1
+way/29344911,Travebad,53.8120441,10.3674435,indoor,water_park,,Vereinigte Stadtwerke GmbH,1
+node/371207117,Treene-Freibad,54.3795322,9.0927637,outdoor,water_park,,,1
+way/1124247294,TuRa Harksheide e.V.,53.7013838,10.0080055,unknown,sports_centre,,,1
+way/132826394,Waldschwimmbad,54.0015348,9.253676,unknown,water_park,,,3
+way/378438279,Waldschwimmbad,54.1773025,9.2012679,unknown,water_park,,,3
+way/196924972,Waldschwimmbad Büchen,53.4902718,10.6100318,unknown,sports_centre,,,4
+relation/6703812,Waldschwimmbad Lensahn,54.2136614,10.8764878,unknown,water_park,,Gemeinde Lensahn,1
+way/198983234,Waldschwimmbad Trappenkamp,54.0395032,10.2240671,unknown,water_park,,,2
+relation/9761526,Warmwasser-Freibad,53.8378376,9.9422604,outdoor,,,,1
+way/302193124,Wulfener Hals - Schwimmbecken,54.404453,11.1786361,unknown,swimming_pool,customers,Riechey Freizeitanlagen GmbH & Co. KG,1
+node/6469356281,Öffentliche Badestelle Kleiner Eutiner See,54.1300376,10.6087958,unknown,sports_centre,,,1

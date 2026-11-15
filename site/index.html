@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pools as flexible loads in Schleswig-Holstein: desk findings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F4F6F6;--surface:#FFFFFF;--surface-2:#EAEFEF;
+  --ink:#151C1F;--ink-2:#38474C;--muted:#5B6B70;
+  --accent:#0F4C5C;--accent-2:#1B6A7E;--accent-wash:#E4EDEF;
+  --rule:#D3DEDF;--rule-2:#C2D0D2;--warn:#8A5A0B;--warn-wash:#F6EEDD;--bar-2:#9DB7BD;--bar-3:#C9862B;
+  --shadow:0 1px 2px rgba(16,40,46,.06),0 8px 24px -16px rgba(16,40,46,.3);
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0E1417;--surface:#141D21;--surface-2:#1A252A;
+  --ink:#E7EDEE;--ink-2:#B9C8CC;--muted:#8DA0A6;
+  --accent:#5FBCD2;--accent-2:#8ED2E2;--accent-wash:#16282F;
+  --rule:#26343A;--rule-2:#32444B;--warn:#E3B565;--warn-wash:#2A2415;--bar-2:#3F5961;--bar-3:#D9A04E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.8);}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);
+ font:400 16px/1.62 "IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+code{font-family:"IBM Plex Mono",ui-monospace,Consolas,monospace;font-size:.86em;background:var(--surface-2);
+ color:var(--accent-2);padding:1px 5px;border-radius:3px;word-break:break-word}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px 90px}
+.masthead{padding:54px 0 30px;border-bottom:1px solid var(--rule)}
+.eyebrow{font:500 11.5px/1.4 "IBM Plex Mono",monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}
+h1{font:600 clamp(34px,5.6vw,54px)/1.05 Spectral,Georgia,serif;letter-spacing:-.018em;margin:0 0 16px;text-wrap:balance}
+.standfirst{font-size:18px;line-height:1.55;color:var(--ink-2);max-width:66ch;margin:0 0 20px}
+.meta{display:flex;flex-wrap:wrap;gap:7px 24px;font-size:13.5px;color:var(--muted)}
+.meta b{color:var(--ink-2);font-weight:500}
+.notice{margin:22px 0 0;padding:13px 16px;background:var(--warn-wash);border-left:2px solid var(--warn);
+ border-radius:0 4px 4px 0;font-size:14.5px;line-height:1.55;color:var(--ink-2);max-width:74ch}
+nav.toc{display:flex;flex-wrap:wrap;gap:6px 8px;padding:18px 0;border-bottom:1px solid var(--rule)}
+nav.toc a{font:500 12.5px/1 "IBM Plex Mono",monospace;text-decoration:none;color:var(--ink-2);
+ padding:8px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--surface)}
+nav.toc a:hover{color:var(--accent);border-color:var(--accent)}
+h2.sec{font:500 11.5px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:44px 0 16px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media(max-width:860px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+ box-shadow:var(--shadow);padding:16px 18px 18px;color:inherit}
+.card:hover{border-color:var(--accent)}
+.card .ref{font:500 11.5px/1 "IBM Plex Mono",monospace;color:var(--accent)}
+.card .num{font:600 30px/1.1 Spectral,Georgia,serif;letter-spacing:-.01em;margin:12px 0 6px;color:var(--ink)}
+.card p{margin:0;font-size:14.3px;line-height:1.5;color:var(--ink-2)}
+.res{margin-top:56px;scroll-margin-top:16px}
+.res-head{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px}
+.ref{font:500 12px/1 "IBM Plex Mono",monospace;color:var(--accent);background:var(--accent-wash);padding:6px 9px;border-radius:3px}
+.res h3{font:600 clamp(23px,3.2vw,30px)/1.16 Spectral,Georgia,serif;letter-spacing:-.014em;margin:0;text-wrap:balance}
+.answer{font-size:17px;line-height:1.55;color:var(--ink);max-width:70ch;margin:8px 0 18px}
+.res p{max-width:70ch;color:var(--ink-2);margin:0 0 13px}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:5px;box-shadow:var(--shadow);padding:18px 20px;margin:18px 0}
+.plabel{font:500 10.5px/1.3 "IBM Plex Mono",monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+.bars{display:grid;gap:9px}
+.bar{display:grid;grid-template-columns:minmax(120px,210px) minmax(0,1fr) 88px;gap:12px;align-items:center;font-size:14px;color:var(--ink-2)}
+@media(max-width:560px){.bar{grid-template-columns:1fr 70px}.bar .track{grid-column:1/-1;order:3}}
+.track{height:14px;background:var(--surface-2);border-radius:2px;overflow:hidden}
+.fill{height:100%;background:var(--accent);border-radius:2px}
+.fill.b2{background:var(--bar-2)}.fill.b3{background:var(--bar-3)}
+.bar .v{font:500 12.5px/1 "IBM Plex Mono",monospace;text-align:right;color:var(--ink)}
+.bar.hl{color:var(--ink);font-weight:500}
+.cap{font-size:13.3px;color:var(--muted);margin:14px 0 0;max-width:74ch;line-height:1.5}
+.t-scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:5px;background:var(--surface);margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:460px}
+th{font:500 10.5px/1.3 "IBM Plex Mono",monospace;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);
+ text-align:left;padding:10px 13px;background:var(--surface-2);border-bottom:1px solid var(--rule)}
+td{padding:9px 13px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.5;color:var(--ink-2)}
+tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+td strong{color:var(--ink)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.limits{border-left:2px solid var(--rule-2);padding:2px 0 2px 16px;margin:18px 0}
+.limits h4,.est h4{font:500 10.5px/1.3 "IBM Plex Mono",monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.est h4{color:var(--accent)}
+.limits ul,.est ul{margin:0;padding:0 0 0 18px;font-size:14.6px;line-height:1.55;color:var(--ink-2);max-width:72ch}
+.limits li,.est li{margin-bottom:5px}
+.est{border-left:2px solid var(--accent);padding:2px 0 2px 16px;margin:18px 0}
+.links{font-size:13.5px;color:var(--muted);margin-top:12px}
+.links a{margin-right:14px;white-space:nowrap}
+.tag{font:500 10.5px/1 "IBM Plex Mono",monospace;letter-spacing:.06em;padding:3px 6px;border-radius:3px;white-space:nowrap}
+.tag.v{background:var(--accent-wash);color:var(--accent)}
+.tag.e{background:var(--warn-wash);color:var(--warn)}
+footer{border-top:1px solid var(--rule);margin-top:64px;padding-top:20px;font-size:13.5px;color:var(--muted);
+ display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Independent desk study · the questions behind project SPLASH</p>
+  <h1>Swimming pools as flexible loads in Schleswig-Holstein</h1>
+  <p class="standfirst">Six questions about public pools as power-to-heat flexibility, worked from
+    public documents and open data. Each answer is reproducible from a script, each input carries a
+    status, and each section says what the result does not establish.</p>
+  <div class="meta">
+    <span><b>Nikhil Sehgal</b></span>
+    <span><b>Worked</b> 8 to 12 September 2026</span>
+    <span><b>Reviewed</b> 15 November 2026</span>
+    <span><b>22</b> corrections logged</span>
+  </div>
+  <p class="notice">This is preparatory work by an applicant. It is not an output of project SPLASH
+    or of Europa-Universität Flensburg, and no project data were used. All results are desk
+    results: first-order calculations and joins on public sources, with no measurement and no
+    operator data.</p>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <a href="#q01">Q0.1 Curtailment</a><a href="#q02">Q0.2 Inventory</a><a href="#r1">R1 Flexibility potential</a>
+  <a href="#r2">R2 Location</a><a href="#r4">R4 Evaporation</a><a href="#r5">R5 Authority and cost</a>
+  <a href="#r3">R3 Not answered</a><a href="#corr">Corrections</a><a href="#data">Data and code</a>
+  <a href="process.html">Process record &rarr;</a>
+</nav>
+
+<h2 class="sec">The results in one line each</h2>
+<div class="grid">
+  <a class="card" href="#q01"><span class="ref">Q0.1</span><div class="num">about 97%</div>
+    <p>of on-land curtailment is caused in the transmission network. That is the part a pool in a relief region can reach under §13k EnWG.</p></a>
+  <a class="card" href="#q02"><span class="ref">Q0.2</span><div class="num">166 units</div>
+    <p>in the state's 2025 funding list, 76 of them indoor. Counts and locations exist. Technical attributes do not.</p></a>
+  <a class="card" href="#r1"><span class="ref">R1</span><div class="num">0.0 &rarr; 0.30 to 0.97 TWh/a</div>
+    <p>theoretical flexible electricity for German baths when the heat is electrified, under the published method's own rules.</p></a>
+  <a class="card" href="#r2"><span class="ref">R2</span><div class="num">24 of 76</div>
+    <p>indoor units for which proximity to wind turbines agrees with §13k eligibility. 59 of 76 are eligible.</p></a>
+  <a class="card" href="#r4"><span class="ref">R4</span><div class="num">2 to 3% &middot; about 35%</div>
+    <p>Loss on an overnight charge, against the electrical penalty on a charge held through summer bathing hours.</p></a>
+  <a class="card" href="#r5"><span class="ref">R5</span><div class="num">3 veto holders</div>
+    <p>Council, operator and network operator. A single site clears its cost only in the best case.</p></a>
+</div>
+
+<!-- Q0.1 -->
+<section class="res" id="q01">
+  <div class="res-head"><span class="ref">Q0.1</span><h3>What share of the curtailment can a distribution-connected pool reach?</h3></div>
+  <p class="answer">Nearly all of it. The curtailment is caused in the transmission network, and
+    that is the part §13k EnWG makes available to additional loads in a relief region. The part
+    caused in the distribution network is about 3% and has no instrument.</p>
+  <div class="panel">
+    <p class="plabel">Where the 802 GWh curtailed on land in 2025 was caused (SH Netz AG)</p>
+    <div class="bars">
+      <div class="bar"><span>Ordered by TenneT</span><div class="track"><div class="fill" style="width:65%"></div></div><span class="v">521 GWh</span></div>
+      <div class="bar"><span>SH Netz, cause in the extra-high-voltage network</span><div class="track"><div class="fill b2" style="width:31.5%"></div></div><span class="v">253 GWh</span></div>
+      <div class="bar"><span>SH Netz, cause in its own network</span><div class="track"><div class="fill b3" style="width:3.5%"></div></div><span class="v">28 GWh</span></div>
+    </div>
+    <p class="cap">Indicative. The 65% is a volume share from the state ministry report of
+      15 April 2026 (&ldquo;über 65%&rdquo;). The 90% applied to the remainder is a share of cases
+      from an SH Netz paper of 2017 (&ldquo;in über 90 Prozent der Fälle nicht im 110-kV-Netz&rdquo;);
+      SH Netz repeats the statement without the figure in 2022 and 2024. Both are lower bounds on
+      transmission causation, so 28 GWh is an upper bound.</p>
+  </div>
+  <p>A second source agrees. §13k Abs. 8 EnWG lets large distribution operators run their own
+    instrument for curtailment caused in their own network. The transmission operators' concept of
+    1 April 2026 records that the distribution operators see no case for it
+    (&ldquo;absehbar keinen eigenständigen Anwendungsfall&rdquo;).</p>
+  <p>The future distribution case is in other places. SH Netz projects medium-voltage congestion in
+    twelve county regions for 2045. The three counties with no §13k relief region (Ostholstein,
+    Herzogtum Lauenburg, Plön) include the highest projected overload share.</p>
+  <div class="t-scroll"><table>
+    <thead><tr><th>County</th><th class="n">Overloaded MV line elements, 2045</th><th class="n">Indoor units</th><th>In a §13k relief region</th></tr></thead>
+    <tbody>
+      <tr><td>Ostholstein</td><td class="n">72%</td><td class="n">7</td><td><strong>no</strong></td></tr>
+      <tr><td>Segeberg</td><td class="n">67%</td><td class="n">6</td><td>yes</td></tr>
+      <tr><td>Pinneberg</td><td class="n">63%</td><td class="n">11</td><td>yes</td></tr>
+      <tr><td>Herzogtum Lauenburg</td><td class="n">55%</td><td class="n">3</td><td><strong>no</strong></td></tr>
+      <tr><td>Stormarn</td><td class="n">52%</td><td class="n">7</td><td>yes</td></tr>
+      <tr><td>Dithmarschen</td><td class="n">48%</td><td class="n">4</td><td>yes</td></tr>
+      <tr><td>Rendsburg-Eckernförde</td><td class="n">38%</td><td class="n">4</td><td>yes</td></tr>
+      <tr><td>Schleswig-Flensburg</td><td class="n">35%</td><td class="n">7</td><td>yes</td></tr>
+      <tr><td>Neumünster</td><td class="n">34%</td><td class="n">1</td><td>yes</td></tr>
+      <tr><td>Nordfriesland</td><td class="n">29%</td><td class="n">11</td><td>yes</td></tr>
+      <tr><td>Plön</td><td class="n">29%</td><td class="n">3</td><td><strong>no</strong></td></tr>
+      <tr><td>Steinburg</td><td class="n">26%</td><td class="n">5</td><td>yes</td></tr>
+    </tbody></table></div>
+  <p class="cap">SH Netz Netzausbauplan 2024, Tabelle 6, joined by county to the 2025 funding list.
+    Flensburg, Kiel and Lübeck are served by other distribution operators and are not in the table.</p>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>The current split. The 90% figure is from 2017; a current number has to come from SH Netz.</li>
+    <li>If the feeder of any individual pool is itself constrained. The regions are county-shaped.</li>
+    <li>If the projected congestion in each region is driven by load or by generation. The source table could not be read reliably for that column.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/q01-addressable-curtailment.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/q01_dso_congestion_join.py">Script</a>
+    <a href="process.html#q01">How it was worked</a></p>
+</section>
+
+<!-- Q0.2 -->
+<section class="res" id="q02">
+  <div class="res-head"><span class="ref">Q0.2</span><h3>Does a usable pool inventory for Schleswig-Holstein exist?</h3></div>
+  <p class="answer">Yes for counts, locations and owners, current to 2025. No for the technical
+    attributes a flexibility study needs, and the state government says its own data are not
+    sufficient.</p>
+  <div class="t-scroll"><table>
+    <thead><tr><th>Source</th><th>What it gives</th><th>What it lacks</th></tr></thead>
+    <tbody>
+      <tr><td>Landtag Drs. 20/4417, Anlage 2 (funding list 2025)</td><td>166 units parsed of 167 printed, 107 administrative units; 76 indoor, 77 outdoor, 13 natural; lesson hours and funding per unit. The parse reconciles to the printed totals at 99.93%.</td><td>Facility address (it prints the owner's office), basin size, heat source</td></tr>
+      <tr><td>Sportstättenerhebung, December 2019</td><td>Water surface 76,488 m², basin counts, ownership, renovation need (43.4% of indoor pools)</td><td>Response rate 71.3%; aggregates only</td></tr>
+      <tr><td>OpenStreetMap, 11 September 2026</td><td>239 named facilities with coordinates</td><td>Depth, heating and water temperature tags: none</td></tr>
+    </tbody></table></div>
+  <p>The state plans a new survey for the end of 2026 through the Statistikamt. The fields the
+    government lists are counts by type, basin counts and depths, locations, build year,
+    renovations, closures and accessibility. Energy carrier, plant and temperature are not in that
+    list.</p>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>One of 167 rows did not parse. Some facilities are listed per basin, so 166 units is about 153 facilities.</li>
+    <li>The indoor share of the 2019 water surface.</li>
+    <li>Any technical attribute of any pool, except nine heat-supply remarks in municipal replies.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/q02-sh-pool-inventory.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/q02_fag2025_sh_pools.csv">Data (CSV)</a>
+    <a href="process.html#q02">How it was worked</a></p>
+</section>
+
+<!-- R1 -->
+<section class="res" id="r1">
+  <div class="res-head"><span class="ref">R1</span><h3>Is the zero flexibility score for baths a property of the asset or of the method?</h3></div>
+  <p class="answer">Of the method. The German reference assessment counts flexible electric
+    appliances, and pool heat is fossil or district heat. With the heat electrified, the same
+    method gives baths 0.30 to 0.97 TWh/a, central estimate 0.83 TWh/a.</p>
+  <p>The published table is Wohlfarth, Klobasa and Eßer, <em>Energy Efficiency</em> 12 (2019),
+    327-341, Table 4, after Schlomann et al. (2015). It gives baths 1.4 TWh/a of electricity and a
+    flexible sum of 0.0. The authors' own list of flexible appliances includes heat pumps and
+    electric water heating. The calculation changes one input, the fuel, and nothing else.</p>
+  <div class="panel">
+    <p class="plabel">Flexible sum by tertiary subsector, TWh/a (Table 4, with baths recalculated)</p>
+    <div class="bars">
+      <div class="bar"><span>Retail trade</span><div class="track"><div class="fill b2" style="width:100%"></div></div><span class="v">6.8</span></div>
+      <div class="bar"><span>Hotels, restaurants, homes</span><div class="track"><div class="fill b2" style="width:79.4%"></div></div><span class="v">5.4</span></div>
+      <div class="bar"><span>Office-like enterprises</span><div class="track"><div class="fill b2" style="width:52.9%"></div></div><span class="v">3.6</span></div>
+      <div class="bar"><span>Agriculture</span><div class="track"><div class="fill b2" style="width:19.1%"></div></div><span class="v">1.3</span></div>
+      <div class="bar"><span>Construction industry</span><div class="track"><div class="fill b2" style="width:13.2%"></div></div><span class="v">0.9</span></div>
+      <div class="bar hl"><span>Baths, electrified, central</span><div class="track"><div class="fill" style="width:12.2%"></div></div><span class="v">0.83</span></div>
+      <div class="bar"><span>Hospitals</span><div class="track"><div class="fill b2" style="width:11.8%"></div></div><span class="v">0.8</span></div>
+      <div class="bar"><span>Schools</span><div class="track"><div class="fill b2" style="width:4.4%"></div></div><span class="v">0.3</span></div>
+      <div class="bar"><span>Airports</span><div class="track"><div class="fill b2" style="width:4.4%"></div></div><span class="v">0.3</span></div>
+      <div class="bar hl"><span>Baths, electrified, lowest case</span><div class="track"><div class="fill" style="width:4.4%"></div></div><span class="v">0.30</span></div>
+      <div class="bar"><span>Baths, as published</span><div class="track"></div><span class="v">0.0</span></div>
+      <div class="bar"><span>Laundries, as published</span><div class="track"></div><span class="v">0.0</span></div>
+    </div>
+    <p class="cap">Central: all baths 2013 (2.9 TWh heat, Schlomann et al.), seasonal performance
+      factor 3.5. Lowest case: municipal indoor and combination pools only (1.34 TWh heat, UBA TEXTE
+      139/2024), factor 4.5. In the central case 37% of the sector's electricity is flexible, the
+      highest fraction in the table.</p>
+  </div>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>These are theoretical potentials, like Table 4 itself. The technical potential depends on the temperature band that hygiene and comfort allow.</li>
+    <li>The performance factors (3.0, 3.5, 4.5) are general ranges. No measured value for pool water was found.</li>
+    <li>Schlomann et al. state that their fuel figure for baths has a wider error band than &plusmn;15%.</li>
+    <li>If a later survey has replaced the 2013 data in this accounting.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r1-electrification-conditional-flexibility.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r1_flexibility_calc.py">Script</a>
+    <a href="process.html#r1">How it was worked</a></p>
+</section>
+
+<!-- R2 -->
+<section class="res" id="r2">
+  <div class="res-head"><span class="ref">R2</span><h3>Does proximity to wind predict where curtailed energy can be claimed?</h3></div>
+  <p class="answer">No. Proximity agrees with §13k eligibility for 24 of 76 indoor units (32%).
+    Most eligible pools are far from turbines, and several pools in dense turbine clusters are
+    excluded.</p>
+  <p>The transmission operators designate the §13k relief regions by county. In
+    Schleswig-Holstein, region T5 is Dithmarschen and Nordfriesland. Region T6 is Neumünster,
+    Lübeck, Pinneberg, Rendsburg-Eckernförde, Schleswig-Flensburg, Segeberg, Steinburg and
+    Stormarn. Flensburg, Kiel, Plön, Ostholstein and Herzogtum Lauenburg are in no region. The
+    operators give the reason: loads there would increase the congestion, or TenneT did not
+    curtail there in the past.</p>
+  <div class="two">
+    <div class="t-scroll"><table style="min-width:0">
+      <thead><tr><th>Indoor units, n = 76</th><th class="n">Eligible</th><th class="n">Not eligible</th></tr></thead>
+      <tbody>
+        <tr><td>Near wind</td><td class="n"><strong>11</strong></td><td class="n">4</td></tr>
+        <tr><td>Far from wind</td><td class="n">48</td><td class="n"><strong>13</strong></td></tr>
+        <tr><td>Total</td><td class="n">59 (78%)</td><td class="n">17</td></tr>
+      </tbody></table></div>
+    <div class="t-scroll"><table style="min-width:0">
+      <thead><tr><th>Not eligible, in turbine clusters</th><th class="n">Turbines within 5 km</th></tr></thead>
+      <tbody>
+        <tr><td>FehMare, Fehmarn</td><td class="n">27</td></tr>
+        <tr><td>Aktiv-Hus, Heiligenhafen</td><td class="n">24</td></tr>
+        <tr><td>Möllner Welle, Mölln</td><td class="n">20</td></tr>
+        <tr><td>Grömitzer Welle, Grömitz</td><td class="n">18</td></tr>
+      </tbody></table></div>
+  </div>
+  <p class="cap">&ldquo;Near wind&rdquo; means 10 or more turbines within 5 km of the town centroid.
+    Agreement is the bold diagonal: 11 + 13 = 24. Pools: 2025 funding list. Turbines: 3,514 onshore
+    generators in OpenStreetMap on 11 September 2026. Relief regions: transmission operators'
+    concept v2.0, 1 April 2026, section 3.3.3. The two Campusbad Flensburg units and both Kiel
+    units are also outside any relief region.</p>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>Eligibility is a regulatory criterion at county level. It is not a map of distribution constraints.</li>
+    <li>Pools are located at town centroids, because the list prints the owner's address. A few units can move across the 5 km threshold.</li>
+    <li>Only one proximity measure was tested. A measure based on constrained substations needs network data that are not public.</li>
+    <li>Relief regions can change with six months' notice.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r2-locational-value.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r2_fag_pools_wind_proximity.csv">Data (CSV)</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r2_locational_value.py">Script</a>
+    <a href="process.html#r2">How it was worked</a></p>
+</section>
+
+<!-- R4 -->
+<section class="res" id="r4">
+  <div class="res-head"><span class="ref">R4</span><h3>What does the evaporation loop cost when heat is stored in pool water?</h3></div>
+  <p class="answer">It sets the operating regime. It does not decide if storage is viable. An
+    overnight charge loses 2 to 3% of the stored heat. A charge held through twelve bathing hours
+    in summer costs about 35% of the shifted electricity in extra dehumidification.</p>
+  <p>Warmer water evaporates faster. The hall must then remove more moisture, and that uses
+    electricity in the same building. The model is a steady-state balance for a 312.5 m² basin with
+    a +2 K charge (1,308 kWh of heat, 374 kWh of electricity shifted at a performance factor of
+    3.5). Evaporation follows the VDI 2089 coefficients, cross-checked against the correlation of Shah (2014).</p>
+  <div class="panel">
+    <p class="plabel">Electrical penalty as a share of the electricity shifted, +2 K charge</p>
+    <div class="bars">
+      <div class="bar"><span>Overnight 6 h, winter, fresh-air ventilation</span><div class="track"><div class="fill" style="width:1.4%"></div></div><span class="v">0.5%</span></div>
+      <div class="bar"><span>Overnight 6 h, heat-pump dehumidifier</span><div class="track"><div class="fill" style="width:12.5%"></div></div><span class="v">4.4%</span></div>
+      <div class="bar"><span>Bathing hours 12 h, winter, fresh air</span><div class="track"><div class="fill b2" style="width:11.3%"></div></div><span class="v">4.0%</span></div>
+      <div class="bar"><span>Bathing hours 12 h, dehumidifier 0.12 kWh/kg</span><div class="track"><div class="fill b2" style="width:31.4%"></div></div><span class="v">11.1%</span></div>
+      <div class="bar hl"><span>Bathing hours 12 h, summer recirculation</span><div class="track"><div class="fill b3" style="width:100%"></div></div><span class="v">35.3%</span></div>
+    </div>
+    <p class="cap">Thermal loss over the same windows: 2.3 to 3.1% overnight, 19 to 25% through
+      bathing hours, and about 4% where a pool-water condenser returns the heat. Calibration before
+      any result was read: the baseline gives 460 t/yr of evaporation and 55 to 175 MWh/yr of
+      dehumidification electricity, within a factor of about 1.5 of two published anchors.</p>
+  </div>
+  <p>The nearest published study that tested pool overheating (Benakcha et al., 2025,
+    arXiv:2512.02586) states that the effect on the air circuit is not analysed and is left to a
+    later article.</p>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>Dynamics. The model is steady state: no heating rate, no stratification, no delay of the hall air.</li>
+    <li>Higher transmission and ventilation losses from a warmer hall. They make the penalty somewhat larger.</li>
+    <li>That +2 K is permitted. The design band for sports basins is 24 to 28 &deg;C, so a pool at 28 &deg;C has no upward margin. Teaching and children's basins (28 to 32 &deg;C) have 2 to 4 K.</li>
+    <li>That no other model closes this loop. The search was not systematic, and Yuan et al. (2021) was not read.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r4-evaporation-loop.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r4_evaporation_loop.py">Script</a>
+    <a href="process.html#r4">How it was worked</a></p>
+</section>
+
+<!-- R5 -->
+<section class="res" id="r5">
+  <div class="res-head"><span class="ref">R5</span><h3>Who can commit a municipal pool to a grid signal, and does it pay?</h3></div>
+  <p class="answer">Nobody alone. The council, the operator's hygiene duty and the connecting
+    network operator each hold a veto. For a single site the value covers the fixed cost only in
+    the best case.</p>
+  <div class="t-scroll"><table>
+    <thead><tr><th>Party</th><th>What it holds</th><th>Basis</th></tr></thead>
+    <tbody>
+      <tr><td>Political body (council or works committee)</td><td>Approval of a framework contract with the transmission operator and of the transfer of technical and legal control to an aggregator</td><td>Gemeindeordnung SH and Eigenbetriebsverordnung. The exact list of reserved decisions was not read.</td></tr>
+      <tr><td>Operator</td><td>The duty that pool water causes no harm to health. A contract cannot transfer it, so the operator must set the temperature limits.</td><td>§37 (2) IfSG, read in full</td></tr>
+      <tr><td>Connecting network operator</td><td>A confirmation at registration, with a veto, was discussed with the distribution operators</td><td>Transmission operators' concept v2.0. Recorded as discussed, not as adopted.</td></tr>
+    </tbody></table></div>
+  <p>§13k requires a controllable electric heat source of at least 100 kW on its own metering
+    point, alone or in a group inside one region. A heat pump first commissioned after
+    29 December 2023 qualifies without the 2% full-load-hour rule. A pool's own CHP unit is not
+    excluded.</p>
+  <div class="est"><h4>Estimate, not a finding</h4><ul>
+    <li>The cost and price inputs below are assumptions: EUR 18,000 one-off, EUR 4,600 per year fixed, 25% aggregator fee, about EUR 140 saved per allocated MWh. The 900 hours are from the concept's worked example, not from region T5 or T6.</li>
+  </ul></div>
+  <div class="t-scroll"><table>
+    <thead><tr><th>Plant</th><th class="n">Allocated hours</th><th class="n">Usable share</th><th class="n">MWh per year</th><th class="n">Net EUR per year</th><th class="n">8 years after one-off cost</th></tr></thead>
+    <tbody>
+      <tr><td>Heat pump 150 kW</td><td class="n">900</td><td class="n">1.00</td><td class="n">135</td><td class="n"><strong>9,600</strong></td><td class="n"><strong>+58,900</strong></td></tr>
+      <tr><td>Heat pump 150 kW, sports basin at 28 &deg;C</td><td class="n">900</td><td class="n">0.35</td><td class="n">47</td><td class="n">400</td><td class="n">&minus;15,000</td></tr>
+      <tr><td>Heat pump 150 kW</td><td class="n">450</td><td class="n">1.00</td><td class="n">68</td><td class="n">2,500</td><td class="n">+2,000</td></tr>
+      <tr><td>Plant 60 kW (must be aggregated)</td><td class="n">900</td><td class="n">1.00</td><td class="n">54</td><td class="n">1,100</td><td class="n">&minus;9,300</td></tr>
+      <tr><td>Plant 60 kW (must be aggregated)</td><td class="n">450</td><td class="n">0.35</td><td class="n">9</td><td class="n">&minus;3,600</td><td class="n">&minus;46,800</td></tr>
+    </tbody></table></div>
+  <p>Value increases with capacity, allocated hours and temperature margin. Cost is fixed per site.
+    The economics are therefore a question of a fleet: one aggregator and one contract standard
+    for many pools.</p>
+  <div class="limits"><h4>Not established</h4><ul>
+    <li>The wording of §101a GO SH and of §5 EigVO. Both statute portals could not be reached.</li>
+    <li>Actual aggregator terms for a load of this size, and the supply price (from a summary of the BDEW price analysis).</li>
+    <li>If SH Netz has adopted a connection confirmation for §13k loads.</li>
+    <li>The allocated hours in T5 and T6.</li>
+  </ul></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r5-dispatch-authority.md">Full result</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r5_participation_cost.py">Script</a>
+    <a href="process.html#r5">How it was worked</a></p>
+</section>
+
+<!-- R3 -->
+<section class="res" id="r3">
+  <div class="res-head"><span class="ref">R3</span><h3>The question that was not answered: winter 2022/23 as a natural experiment</h3></div>
+  <p class="answer">The premise was wrong. Public pools were exempt from the federal energy-saving
+    regulation, so the temperature reductions of that winter were not mandated.</p>
+  <p>§4 EnSikuMaV prohibited the heating of private, non-commercial pools with gas or grid
+    electricity. Its explanatory note excludes pools that are open to the public for payment. The
+    reductions that municipal pools made were decisions under cost pressure. The reports of
+    recommendations by the bathing association and of what individual pools did come from press
+    sources and are not verified.</p>
+  <p>A public series does exist: teaching hours per pool for 2023 (Landtag Drs. 20/2279, 169
+    facilities, reconciled exactly) and 2025. It starts after the episode, and the unit of
+    observation changes between the years. It can show recovery from 2023 to 2025 after the units
+    are reconciled. It cannot show a before-and-after effect. A pre-period needs operator records.</p>
+  <p class="links"><a href="process.html#r3">How it was worked</a>
+    <a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/research/r3_fag2023_sh_pools.csv">Data 2023 (CSV)</a></p>
+</section>
+
+<!-- Corrections -->
+<section class="res" id="corr">
+  <div class="res-head"><span class="ref">Log</span><h3>Corrections</h3></div>
+  <p>The verification log records twelve passes and 22 numbered corrections. Most of them correct
+    this study's own earlier statements. Five that changed a conclusion or a figure:</p>
+  <div class="t-scroll"><table>
+    <thead><tr><th>No.</th><th>What was stated</th><th>What is true</th></tr></thead>
+    <tbody>
+      <tr><td>C17</td><td>Transmission causation of the curtailment is a threat to the premise.</td><td>It is the addressable quantity. §13k exists so that loads in relief regions absorb transmission-caused curtailment.</td></tr>
+      <tr><td>C19</td><td>Winter 2022/23 was a mandated temperature cut in all public pools.</td><td>Public pools were exempt from §4 EnSikuMaV.</td></tr>
+      <tr><td>C12</td><td>Pools with CHP are excluded from §13k.</td><td>Only CHP plants under a §13 (6a) contract with a transmission operator are excluded.</td></tr>
+      <tr><td>C20</td><td>The 2023 and 2025 teaching-hours lists are a ready panel.</td><td>The unit of observation is not stable between the years.</td></tr>
+      <tr><td>C21</td><td>58 of 76 indoor units are eligible; proximity agrees for 25 of 76.</td><td>59 of 76 and 24 of 76. One unit owned by Kreis Steinburg had no county assigned and was counted as not eligible. Found in the review of 15 November 2026.</td></tr>
+    </tbody></table></div>
+  <p class="links"><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility/blob/main/verification_log.md">Full verification log</a></p>
+</section>
+
+<!-- Data -->
+<section class="res" id="data">
+  <div class="res-head"><span class="ref">Repo</span><h3>Data, code and status labels</h3></div>
+  <p>The repository holds the six result documents, a record of sources for each, seven Python
+    scripts with no dependencies outside the standard library, the output tables as CSV, and the
+    open input data the scripts read. Each script reproduces the figures on this page.</p>
+  <p><a href="https://github.com/nikhilsehgal3333/splash-pool-flexibility">github.com/nikhilsehgal3333/splash-pool-flexibility</a></p>
+  <div class="t-scroll"><table>
+    <thead><tr><th>Label in the documents</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag v">VERIFIED</span></td><td>Read in the primary document or computed from it in this study.</td></tr>
+      <tr><td><span class="tag e">[verify]</span></td><td>Plausible, from a secondary source or a summary. Not checked against the primary document.</td></tr>
+      <tr><td><span class="tag e">UNRESOLVED</span></td><td>Could not be checked. This includes every statement that something does not exist in the literature: the searches were not systematic.</td></tr>
+    </tbody></table></div>
+  <p class="cap">Map data &copy; OpenStreetMap contributors, ODbL. Parliamentary papers: Landtag
+    Schleswig-Holstein, Drs. 20/4417 and 20/2279. Third-party reports and articles are cited with
+    their URL in each result document and are not redistributed.</p>
+</section>
+
+<footer>
+  <span>Nikhil Sehgal · independent desk study · not an output of project SPLASH</span>
+  <span><a href="process.html">Process record</a></span>
+</footer>
+</div>
+</body>
+</html>
